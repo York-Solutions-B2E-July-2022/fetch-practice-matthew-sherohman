@@ -1,4 +1,4 @@
-#emojis-list {
+#emojis {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,11 +11,15 @@
     margin: 1rem;
     border-radius: 0.25rem;
 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 
 }
 
 .emojis > img {
     max-height: 5rem;
     max-width: 5rem;
+}
+
+#colors {
+    text-align: center;
 }
